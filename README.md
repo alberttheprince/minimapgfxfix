@@ -1,3 +1,8 @@
-Free to use for anything
+# 3751 minimap.gfx and Mansion Map Hider
 
-not drag and drop, do not ask for support, dev resource only
+This is a simple resource that hides the Mansion maps, and removes the health, armor, and stamina bars in 3751. 
+
+You would use this resource if you have a custom HUD that handles health/stamina, to save on constantly hiding it every frame.
+
+Dependencies:
+(Optional) Ox_lib, so that you can reenable the maps when inside the house
