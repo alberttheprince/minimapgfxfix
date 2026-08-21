@@ -6,3 +6,7 @@ You would use this resource if you have a custom HUD that handles health/stamina
 
 Dependencies:
 (Optional) Ox_lib, so that you can reenable the maps when inside the house
+
+# Important Note on minimap.gfx:
+
+You must update 3751 to the game build you are using. You cannot run multiple versions, they will overwrite each other. Make sure you delete or replace it if it's currently in another resource. Usually, HUD resources will have their own version.
