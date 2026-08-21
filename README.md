@@ -14,8 +14,8 @@ SetMinimapComponent(21, false, -1)
 SetMinimapComponent(22, false, -1)
 ```
 
-Dependencies:
-(Optional) Ox_lib, so that you can reenable the maps when inside the house
+# Dependencies:
+(Optional) Ox_lib, so that you can re-enable the maps when inside the house. Set to true in the config
 
 # Important Note on minimap.gfx:
 
