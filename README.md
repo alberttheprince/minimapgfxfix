@@ -4,6 +4,16 @@ This is a simple resource that hides the Mansion maps, and removes the health, a
 
 You would use this resource if you have a custom HUD that handles health/stamina, to save on constantly hiding it every frame.
 
+Don't want to download the resource to hide the houses?
+
+Put this in any client side script/smallresource package:
+
+```
+SetMinimapComponent(20, false, -1)
+SetMinimapComponent(21, false, -1)
+SetMinimapComponent(22, false, -1)
+```
+
 Dependencies:
 (Optional) Ox_lib, so that you can reenable the maps when inside the house
 
